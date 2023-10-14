@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 window._config = {
     cognito: {
         userPoolId: process.env.POOLID, // e.g. us-east-2_uXboG5pAb
