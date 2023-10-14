@@ -10,3 +10,6 @@ window._config = {
         invokeUrl: process.env.URL // e.g. https://rc7nyt4tql.execute-api.us-west-2.amazonaws.com/prod',
     }
 };
+console.log(process.env.POOLID);
+console.log(process.env.CLIENTID);
+console.log(process.env.URL);
