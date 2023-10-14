@@ -1,8 +1,12 @@
 const Dotenv = require('dotenv-webpack');
 
 module.exports = {
-  // Other webpack configuration...
-
+  mode: 'development', // or 'production'
+  entry: './index.js',
+  output: {
+    path: __dirname + '/dist',
+    filename: 'bundle.js'
+  },
   plugins: [
     new Dotenv()
   ]
