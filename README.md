@@ -2,7 +2,7 @@
 Deploy a serverless web application using AWS Services
 
 <b>1. Deploy static Web Application using AWS Amplify </b>
-  - AWS Amplify is a great service to continuously deploy static web applications. You can tie your github repo to AWS Amplify to host your application and whenever commits are made to your repo, Amplify would redploy when changes are made. <br> <br>
+  - AWS Amplify is a great service to continuously deploy static web applications. You can tie your github repo to AWS Amplify to host your application and whenever commits are made to your repo, Amplify would redploy when changes are made. You can also use Amplify's built-in environment variables to handle your env variables<br> <br>
   ** Please note: if you're unable to launch to web application chances are I have taken it down due to using up all my free tier. <br>
 
 <b>2. Manage user verification using AWS Cognito</b>
