@@ -13,6 +13,8 @@ Deploy a serverless web application using AWS Services
  
 <b>4. Deploy Restful API using API Gateway</b>
  - API Gateway is used to expose the Lambda function as a REST API and secured using Cognito as the Gateway uses JSON web tokens returned from Cognito user pools to authenticate the response. As we are exposing an endpoint to the public internet edge optimized is recommended as the endpoint type.<br><br>
-Link to Web App = https://main.d33wp2p593d8jl.amplifyapp.com/ <br><br> ** Please note you can customize the domain by using AWS Route 53 and under amplify domain management you can add a domain, then you can use Route53 to make AAAA records to forward requests to the domain you have added. You can also use GoDaddy or Google domains to use your domains instead of Route 53.
+
+
+Link to Web App = https://main.d33wp2p593d8jl.amplifyapp.com/ <br><br> ** Please note you can customize the domain by using AWS Route 53 and under amplify domain management you can add a domain, then you can use Route53 to make AAAA records to forward requests to the domain you have added. You can also use GoDaddy or Google domains to use your domains instead of Route 53. <br> </br>
 
 Link to tutorial = https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/
