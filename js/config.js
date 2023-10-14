@@ -1,4 +1,3 @@
-require('dotenv').config();
 
 window._config = {
     cognito: {
